@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<helpcfg date="2014-04-25" version="2.0" appId="null" pubId="null">
+<product
+id="ru_RU_Reader"
+label="Adobe Reader"
+baseUrl="http://help.adobe.com/"
+path="HelpCfg/ru_RU/"
+helpServiceURL="http://community.adobe.com/chcservices/services/redirect"
+ionId="adobereader_product_adobelr"
+searchOptions="Community|Adobe"
+searchAdobeRefinement="site=reader_11_all"
+searchDefault="Community"
+/>
+<package
+id="ru_RU_Reader_Reference"
+label="Документация Adobe Reader"
+baseUrl="http://helpx.adobe.com"
+path=""
+packageGenerator="day"
+helpmapPath="ru/reader/using/helpmap.txt"
+contextSensitivity="yes"
+downloadPdf="ru/pdf/adobe_reader_reference.pdf"
+/>
+<package
+id="ru_RU_Reader_11.0_Using"
+label="Использование Adobe Reader 11"
+baseUrl="http://help.adobe.com"
+path="ru_RU/reader/using"
+packageGenerator="gep"
+contextSensitivity="yes"
+/>
+</helpcfg>

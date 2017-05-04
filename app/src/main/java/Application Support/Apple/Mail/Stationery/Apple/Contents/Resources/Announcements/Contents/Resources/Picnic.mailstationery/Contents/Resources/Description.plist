@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Background Images</key>
+	<array>
+		<string>bg_pattern.jpg</string>
+		<string>napkin.jpg</string>
+	</array>
+	<key>Folder Name</key>
+	<string>Picnic.mailstationery</string>
+	<key>HTML File</key>
+	<string>content.html</string>
+	<key>Stationery ID</key>
+	<string>27F6145B-654D-4C8D-9335-8A870615D0D4</string>
+	<key>Thumbnail Image</key>
+	<string>thumbnail.png</string>
+</dict>
+</plist>

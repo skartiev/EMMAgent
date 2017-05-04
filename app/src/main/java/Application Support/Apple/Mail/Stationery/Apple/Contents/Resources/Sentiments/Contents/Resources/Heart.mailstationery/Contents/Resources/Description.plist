@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Background Images</key>
+	<array>
+		<string>bg_pattern.jpg</string>
+		<string>letter_bg.jpg</string>
+		<string>lbg.jpg</string>
+		<string>rbg.jpg</string>
+	</array>
+	<key>Composite Images</key>
+	<array>
+		<dict>
+			<key>Base Image</key>
+			<string>banner.jpg</string>
+			<key>Composite Name</key>
+			<string>Photos</string>
+			<key>Masks</key>
+			<array>
+				<dict>
+					<key>Drop Zone Angle</key>
+					<integer>0</integer>
+					<key>Drop Zone Offset</key>
+					<array>
+						<integer>108</integer>
+						<integer>183</integer>
+					</array>
+					<key>Drop Zone Size</key>
+					<array>
+						<integer>239</integer>
+						<integer>180</integer>
+					</array>
+					<key>File Name</key>
+					<string>Mask1.png</string>
+					<key>Placeholder Image</key>
+					<string>placeholder.jpg</string>
+				</dict>
+			</array>
+			<key>Overlay Image</key>
+			<string>Frames.png</string>
+		</dict>
+	</array>
+	<key>Folder Name</key>
+	<string>Heart.mailstationery</string>
+	<key>HTML File</key>
+	<string>content.html</string>
+	<key>Images</key>
+	<array>
+		<string>bottom.jpg</string>
+		<string>tbg.jpg</string>
+		<string>bbg.jpg</string>
+	</array>
+	<key>Stationery ID</key>
+	<string>32A48CAB-E72E-42C1-9BF5-921C1D0DE488</string>
+	<key>Thumbnail Image</key>
+	<string>thumbnail.png</string>
+</dict>
+</plist>

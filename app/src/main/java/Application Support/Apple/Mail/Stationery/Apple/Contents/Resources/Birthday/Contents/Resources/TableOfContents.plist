@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Folder Name</key>
+		<string>Dots.mailstationery</string>
+		<key>Stationery ID</key>
+		<string>3CF502C3-F26C-4DFE-92B5-527787A9BD3A</string>
+	</dict>
+	<dict>
+		<key>Folder Name</key>
+		<string>Gift.mailstationery</string>
+		<key>Stationery ID</key>
+		<string>330D9B9A-DDC6-4642-9AD6-274AAC610185</string>
+	</dict>
+	<dict>
+		<key>Folder Name</key>
+		<string>Banners.mailstationery</string>
+		<key>Stationery ID</key>
+		<string>CDB308A5-D317-4C7C-9A3F-60370281E381</string>
+	</dict>
+	<dict>
+		<key>Folder Name</key>
+		<string>Party.mailstationery</string>
+		<key>Stationery ID</key>
+		<string>D5A5CC37-FB8A-447C-883C-F7C70AD48D74</string>
+	</dict>
+	<dict>
+		<key>Folder Name</key>
+		<string>Daisies.mailstationery</string>
+		<key>Stationery ID</key>
+		<string>F885A8FA-6048-4712-A90E-B037A1351AC8</string>
+	</dict>
+</array>
+</plist>

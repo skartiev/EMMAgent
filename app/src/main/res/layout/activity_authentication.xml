@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:fillViewport="true">
+
+  <RelativeLayout
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:background="#ffffff" >
+
+      <!-- Login Form -->
+
+      <LinearLayout
+          android:id="@+id/linearLayout1"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/layout_topbar"
+          android:orientation="vertical"
+          android:padding="10dip" >
+
+          <!-- Email Label -->
+
+		  <EditText
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_margin="5dp"
+              android:singleLine="true"
+              android:id="@+id/txtDomain"
+              android:hint="@string/domain"
+              android:textColor="@android:color/black"
+              android:inputType="text" />
+		  
+          <EditText
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_margin="5dp"
+              android:singleLine="true"
+              android:id="@+id/editText1"
+              android:hint="@string/username"
+              android:textColor="@android:color/black"
+              android:inputType="textEmailAddress" />
+          <!-- Password Label -->
+          <!-- Login button -->
+          <!-- Link to Registration Screen -->
+
+          <EditText
+              android:inputType="textPassword"
+              android:id="@+id/editText2"
+              android:layout_margin="5dp"
+              android:textColor="@android:color/black"
+              android:layout_width="match_parent"
+              android:hint="@string/password"
+              android:layout_height="wrap_content"
+              android:ems="10" >	
+              <requestFocus />
+          </EditText>
+          
+          <RadioGroup
+	        android:id="@+id/radioGroupType"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="5dp">
+
+	          <RadioButton
+	              android:id="@+id/radioBYOD"
+	              android:layout_width="wrap_content"
+	              android:layout_height="wrap_content"
+	              android:layout_margin="5dp"
+	              android:button="@drawable/custom_checkbox"
+	              android:checked="true"
+	              android:text="@string/device_enroll_type_byod_header"
+	              android:textColor="@android:color/black" />
+	
+		      <RadioButton
+		          android:id="@+id/radioCOPE"
+		          android:layout_width="wrap_content"
+		          android:layout_height="wrap_content"
+		          android:layout_margin="5dp"
+		          android:button="@drawable/custom_checkbox"
+		          android:text="@string/device_enroll_type_cope_header"
+		          android:textColor="@android:color/black" />
+
+	  </RadioGroup>
+          
+          <Button
+              android:id="@+id/btnRegister"
+              style="@style/ButtonText"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginBottom="10dp"
+              android:layout_marginLeft="10dp"
+              android:layout_marginRight="10dp"
+              android:layout_marginTop="30dp"
+              android:background="@drawable/btn_orange"
+              android:text="@string/register_button_text" />
+          
+      </LinearLayout>
+
+     <!-- <TextView android:id="@+id/txtLoadingEULA"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_centerInParent="true"
+              android:textColor="@android:color/black"
+              android:visibility="visible"
+              android:text="Loading the license agreement, please wait..."/> -->
+      
+      <!-- Login Form Ends -->
+
+      <LinearLayout
+          android:id="@+id/footer"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentBottom="true"
+          android:layout_centerHorizontal="true"
+          android:layout_margin="10dp"
+          android:background="@drawable/repeat_bg"
+          android:orientation="vertical"
+          android:gravity="center" >
+      </LinearLayout>
+
+  </RelativeLayout>
+
+</ScrollView>

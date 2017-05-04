@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Background Images</key>
+	<array>
+		<dict>
+			<key>blue</key>
+			<string>bg_pattern.jpg</string>
+			<key>green</key>
+			<string>bg_pattern-green.jpg</string>
+			<key>red</key>
+			<string>bg_pattern-red.jpg</string>
+		</dict>
+		<dict>
+			<key>blue</key>
+			<string>bg_letter.jpg</string>
+			<key>green</key>
+			<string>bg_letter-green.jpg</string>
+			<key>red</key>
+			<string>bg_letter-red.jpg</string>
+		</dict>
+		<dict>
+			<key>blue</key>
+			<string>lbg.jpg</string>
+			<key>green</key>
+			<string>lbg-green.jpg</string>
+			<key>red</key>
+			<string>lbg-red.jpg</string>
+		</dict>
+		<dict>
+			<key>blue</key>
+			<string>rbg.jpg</string>
+			<key>green</key>
+			<string>rbg-green.jpg</string>
+			<key>red</key>
+			<string>rbg-red.jpg</string>
+		</dict>
+	</array>
+	<key>Composite Images</key>
+	<array>
+		<dict>
+			<key>Base Image</key>
+			<dict>
+				<key>blue</key>
+				<string>banner.jpg</string>
+				<key>green</key>
+				<string>banner-green.jpg</string>
+				<key>red</key>
+				<string>banner-red.jpg</string>
+			</dict>
+			<key>Composite Name</key>
+			<string>Photos</string>
+			<key>Masks</key>
+			<array>
+				<dict>
+					<key>Drop Zone Angle</key>
+					<integer>0</integer>
+					<key>Drop Zone Offset</key>
+					<array>
+						<integer>22</integer>
+						<integer>5</integer>
+					</array>
+					<key>Drop Zone Size</key>
+					<array>
+						<integer>181</integer>
+						<integer>222</integer>
+					</array>
+					<key>File Name</key>
+					<string>Mask1.png</string>
+					<key>Placeholder Image</key>
+					<string>placeholder1.jpg</string>
+				</dict>
+				<dict>
+					<key>Drop Zone Angle</key>
+					<integer>0</integer>
+					<key>Drop Zone Offset</key>
+					<array>
+						<integer>179</integer>
+						<integer>30</integer>
+					</array>
+					<key>Drop Zone Size</key>
+					<array>
+						<integer>319</integer>
+						<integer>223</integer>
+					</array>
+					<key>File Name</key>
+					<string>Mask2.png</string>
+					<key>Placeholder Image</key>
+					<string>placeholder2.jpg</string>
+				</dict>
+				<dict>
+					<key>Drop Zone Angle</key>
+					<integer>0</integer>
+					<key>Drop Zone Offset</key>
+					<array>
+						<integer>471</integer>
+						<integer>13</integer>
+					</array>
+					<key>Drop Zone Size</key>
+					<array>
+						<integer>262</integer>
+						<integer>200</integer>
+					</array>
+					<key>File Name</key>
+					<string>Mask3.png</string>
+					<key>Placeholder Image</key>
+					<string>placeholder3.jpg</string>
+				</dict>
+			</array>
+			<key>Overlay Image</key>
+			<dict>
+				<key>blue</key>
+				<string>Frames.png</string>
+				<key>green</key>
+				<string>Frames-green.png</string>
+				<key>red</key>
+				<string>Frames-red.png</string>
+			</dict>
+		</dict>
+	</array>
+	<key>Default Color</key>
+	<string>blue</string>
+	<key>Folder Name</key>
+	<string>Bamboo.mailstationery</string>
+	<key>HTML File</key>
+	<string>content.html</string>
+	<key>Images</key>
+	<array>
+		<dict>
+			<key>blue</key>
+			<string>top.jpg</string>
+			<key>green</key>
+			<string>top-green.jpg</string>
+			<key>red</key>
+			<string>top-red.jpg</string>
+		</dict>
+		<dict>
+			<key>blue</key>
+			<string>bottom.jpg</string>
+			<key>green</key>
+			<string>bottom-green.jpg</string>
+			<key>red</key>
+			<string>bottom-red.jpg</string>
+		</dict>
+	</array>
+	<key>Letter Rectangle</key>
+	<dict>
+		<key>Top Margin</key>
+		<string>37</string>
+		<key>Width</key>
+		<string>660</string>
+	</dict>
+	<key>Stationery ID</key>
+	<string>C83F90CA-534D-405B-9AE8-79D9DAFF7878</string>
+	<key>Thumbnail Image</key>
+	<string>thumbnail.png</string>
+</dict>
+</plist>

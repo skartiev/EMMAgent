@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BezelServicesPlugin</key>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.driver.AppleIRController</string>
+		<key>Classes</key>
+		<dict>
+			<key>AppleIRController</key>
+			<dict>
+				<key>PreferenceDefaults</key>
+				<dict>
+					<key>DeviceEnabled</key>
+					<true/>
+					<key>UIDFilter</key>
+					<string>none</string>
+				</dict>
+				<key>PreferenceHost</key>
+				<string>Current</string>
+				<key>PreferenceIdentifier</key>
+				<string>com.apple.driver.AppleIRController</string>
+				<key>PreferenceUser</key>
+				<string>Any</string>
+			</dict>
+		</dict>
+		<key>Version</key>
+		<string>2</string>
+	</dict>
+	<key>BuildMachineOSBuild</key>
+	<string>14C64</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.AppleIRController</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>AppleIRController</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>327.5</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>327.5</string>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTPlatformBuild</key>
+	<string>6D68e</string>
+	<key>DTPlatformVersion</key>
+	<string>GM</string>
+	<key>DTSDKBuild</key>
+	<string>14C55</string>
+	<key>DTSDKName</key>
+	<string>macosx10.10internal</string>
+	<key>DTXcode</key>
+	<string>0650</string>
+	<key>DTXcodeBuild</key>
+	<string>6D68e</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2011 Apple Inc. All rights reserved.</string>
+</dict>
+</plist>

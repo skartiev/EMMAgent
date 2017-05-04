@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<helpcfg date="2014-04-25" version="2.0" appId="null" pubId="null">
+<product
+id="en_US_Reader"
+label="Adobe Reader"
+baseUrl="http://help.adobe.com/"
+path="HelpCfg/en_US/"
+helpServiceURL="http://community.adobe.com/chcservices/services/redirect"
+ionId="adobereader_product_adobelr"
+searchOptions="Community|Adobe"
+searchAdobeRefinement="site=reader_11_all"
+searchDefault="Community"
+/>
+<package
+id="en_US_Reader_Reference"
+label="Adobe Reader Reference"
+baseUrl="http://helpx.adobe.com"
+path=""
+packageGenerator="day"
+helpmapPath="reader/using/helpmap.txt"
+contextSensitivity="yes"
+downloadPdf="pdf/adobe_reader_reference.pdf"
+/>
+<package
+id="en_US_Reader_11.0_Using"
+label="Using Adobe Reader 11"
+baseUrl="http://help.adobe.com"
+path="en_US/reader/using"
+packageGenerator="gep"
+contextSensitivity="yes"
+/>
+</helpcfg>

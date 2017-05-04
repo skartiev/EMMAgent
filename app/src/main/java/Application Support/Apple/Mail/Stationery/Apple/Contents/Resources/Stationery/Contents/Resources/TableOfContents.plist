@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Folder Name</key>
+		<string>Fun.mailstationery</string>
+		<key>Stationery ID</key>
+		<string>DACE4F21-DA46-4D07-A8E6-8B63861F6FDB</string>
+	</dict>
+	<dict>
+		<key>Folder Name</key>
+		<string>Pssst.mailstationery</string>
+		<key>Stationery ID</key>
+		<string>85C29B1D-43F7-4BAB-81B6-66C74919B0E8</string>
+	</dict>
+	<dict>
+		<key>Folder Name</key>
+		<string>Sand Dollar.mailstationery</string>
+		<key>Stationery ID</key>
+		<string>D292B188-CE8E-4D60-9E5A-5E0C979579B9</string>
+	</dict>
+	<dict>
+		<key>Folder Name</key>
+		<string>Butterfly.mailstationery</string>
+		<key>Stationery ID</key>
+		<string>F5DB289D-ADE2-406F-AFD5-CB37935FCC93</string>
+	</dict>
+	<dict>
+		<key>Folder Name</key>
+		<string>Flower.mailstationery</string>
+		<key>Stationery ID</key>
+		<string>D4A9AA5B-AE30-49EE-A5B3-A820D3148FC9</string>
+	</dict>
+	<dict>
+		<key>Folder Name</key>
+		<string>Maple Leaf.mailstationery</string>
+		<key>Stationery ID</key>
+		<string>62A9FD6D-E570-4EEE-9082-1BB32B9FA385</string>
+	</dict>
+	<dict>
+		<key>Folder Name</key>
+		<string>Sticky.mailstationery</string>
+		<key>Stationery ID</key>
+		<string>0B5A3E51-2BCD-479B-A194-58600FA3B7AE</string>
+	</dict>
+</array>
+</plist>

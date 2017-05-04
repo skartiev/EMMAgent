@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Folder Name</key>
+		<string>Lunch.mailstationery</string>
+		<key>Stationery ID</key>
+		<string>AEF6BD78-97F6-4775-A334-C2DF8E7D8B62</string>
+	</dict>
+	<dict>
+		<key>Folder Name</key>
+		<string>Dinner.mailstationery</string>
+		<key>Stationery ID</key>
+		<string>E72ED438-2E54-4FA0-8447-1D5C6838E16F</string>
+	</dict>
+	<dict>
+		<key>Folder Name</key>
+		<string>Dinner Party.mailstationery</string>
+		<key>Stationery ID</key>
+		<string>E3BF76E4-6E8C-49BD-8E3D-1417CADD2CAE</string>
+	</dict>
+	<dict>
+		<key>Folder Name</key>
+		<string>Picnic.mailstationery</string>
+		<key>Stationery ID</key>
+		<string>27F6145B-654D-4C8D-9335-8A870615D0D4</string>
+	</dict>
+	<dict>
+		<key>Folder Name</key>
+		<string>Formal Invite.mailstationery</string>
+		<key>Stationery ID</key>
+		<string>52CF436E-68DA-4842-B638-2B912C5F7361</string>
+	</dict>
+	<dict>
+		<key>Folder Name</key>
+		<string>Save the Date.mailstationery</string>
+		<key>Stationery ID</key>
+		<string>614B7E5C-F3D0-43D1-8F35-F85217AFE75E</string>
+	</dict>
+	<dict>
+		<key>Folder Name</key>
+		<string>Baby.mailstationery</string>
+		<key>Stationery ID</key>
+		<string>549B7B30-D98B-4039-914F-7326E54955D9</string>
+	</dict>
+	<dict>
+		<key>Folder Name</key>
+		<string>New Address.mailstationery</string>
+		<key>Stationery ID</key>
+		<string>D87EE0EB-5A31-427D-8292-BE9C4D7341EF</string>
+	</dict>
+	<dict>
+		<key>Folder Name</key>
+		<string>We've Moved.mailstationery</string>
+		<key>Stationery ID</key>
+		<string>A978C3B3-4E0A-4045-9759-EF0690326CA8</string>
+	</dict>
+</array>
+</plist>

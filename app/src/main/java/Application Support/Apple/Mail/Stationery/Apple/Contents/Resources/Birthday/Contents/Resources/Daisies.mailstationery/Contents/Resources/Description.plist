@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Background Images</key>
+	<array>
+		<dict>
+			<key>blue</key>
+			<string>bg_pattern-blue.jpg</string>
+			<key>green</key>
+			<string>bg_pattern-green.jpg</string>
+			<key>orange</key>
+			<string>bg_pattern.jpg</string>
+			<key>pink</key>
+			<string>bg_pattern-pink.jpg</string>
+		</dict>
+		<dict>
+			<key>blue</key>
+			<string>letter_bg-blue.jpg</string>
+			<key>green</key>
+			<string>letter_bg-green.jpg</string>
+			<key>orange</key>
+			<string>letter_bg.jpg</string>
+			<key>pink</key>
+			<string>letter_bg-pink.jpg</string>
+		</dict>
+		<dict>
+			<key>blue</key>
+			<string>lbg-blue.jpg</string>
+			<key>green</key>
+			<string>lbg-green.jpg</string>
+			<key>orange</key>
+			<string>lbg.jpg</string>
+			<key>pink</key>
+			<string>lbg-pink.jpg</string>
+		</dict>
+		<dict>
+			<key>blue</key>
+			<string>lbg2-blue.jpg</string>
+			<key>green</key>
+			<string>lbg2-green.jpg</string>
+			<key>orange</key>
+			<string>lbg2.jpg</string>
+			<key>pink</key>
+			<string>lbg2-pink.jpg</string>
+		</dict>
+		<dict>
+			<key>blue</key>
+			<string>rbg2-blue.jpg</string>
+			<key>green</key>
+			<string>rbg2-green.jpg</string>
+			<key>orange</key>
+			<string>rbg2.jpg</string>
+			<key>pink</key>
+			<string>rbg2-pink.jpg</string>
+		</dict>
+		<dict>
+			<key>blue</key>
+			<string>rbg-blue.jpg</string>
+			<key>green</key>
+			<string>rbg-green.jpg</string>
+			<key>orange</key>
+			<string>rbg.jpg</string>
+			<key>pink</key>
+			<string>rbg-pink.jpg</string>
+		</dict>
+	</array>
+	<key>Composite Images</key>
+	<array>
+		<dict>
+			<key>Base Image</key>
+			<dict>
+				<key>blue</key>
+				<string>banner-blue.jpg</string>
+				<key>green</key>
+				<string>banner-green.jpg</string>
+				<key>orange</key>
+				<string>banner.jpg</string>
+				<key>pink</key>
+				<string>banner-pink.jpg</string>
+			</dict>
+			<key>Composite Name</key>
+			<string>Photos</string>
+			<key>Masks</key>
+			<array>
+				<dict>
+					<key>Drop Zone Angle</key>
+					<real>4.5</real>
+					<key>Drop Zone Offset</key>
+					<array>
+						<integer>37</integer>
+						<integer>15</integer>
+					</array>
+					<key>Drop Zone Size</key>
+					<array>
+						<integer>387</integer>
+						<integer>305</integer>
+					</array>
+					<key>File Name</key>
+					<string>Mask1.png</string>
+					<key>Placeholder Image</key>
+					<string>placeholder.jpg</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
+	<key>Default Color</key>
+	<string>orange</string>
+	<key>Folder Name</key>
+	<string>Daisies.mailstationery</string>
+	<key>Font Colors</key>
+	<dict>
+		<key>title-font</key>
+		<dict>
+			<key>blue</key>
+			<string>#6f96bf</string>
+			<key>green</key>
+			<string>#a4b936</string>
+			<key>orange</key>
+			<string>#d9550d</string>
+			<key>pink</key>
+			<string>#e96475</string>
+		</dict>
+	</dict>
+	<key>HTML File</key>
+	<string>content.html</string>
+	<key>Images</key>
+	<array>
+		<dict>
+			<key>blue</key>
+			<string>tbg-blue.jpg</string>
+			<key>green</key>
+			<string>tbg-green.jpg</string>
+			<key>orange</key>
+			<string>tbg.jpg</string>
+			<key>pink</key>
+			<string>tbg-pink.jpg</string>
+		</dict>
+		<dict>
+			<key>blue</key>
+			<string>bbg-blue.jpg</string>
+			<key>green</key>
+			<string>bbg-green.jpg</string>
+			<key>orange</key>
+			<string>bbg.jpg</string>
+			<key>pink</key>
+			<string>bbg-pink.jpg</string>
+		</dict>
+	</array>
+	<key>Letter Rectangle</key>
+	<dict>
+		<key>Top Margin</key>
+		<integer>24</integer>
+		<key>Width</key>
+		<integer>456</integer>
+	</dict>
+	<key>Stationery ID</key>
+	<string>F885A8FA-6048-4712-A90E-B037A1351AC8</string>
+	<key>Thumbnail Image</key>
+	<string>thumbnail.png</string>
+</dict>
+</plist>

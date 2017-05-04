@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Folder Name</key>
+		<string>Air Mail.mailstationery</string>
+		<key>Stationery ID</key>
+		<string>EAEBEA8D-3424-496A-8A3E-5FCD78A6232B</string>
+	</dict>
+	<dict>
+		<key>Folder Name</key>
+		<string>Bamboo.mailstationery</string>
+		<key>Stationery ID</key>
+		<string>C83F90CA-534D-405B-9AE8-79D9DAFF7878</string>
+	</dict>
+	<dict>
+		<key>Folder Name</key>
+		<string>Tack Board.mailstationery</string>
+		<key>Stationery ID</key>
+		<string>CC34D964-B422-4749-A399-F675CA88EF4E</string>
+	</dict>
+	<dict>
+		<key>Folder Name</key>
+		<string>Doodles.mailstationery</string>
+		<key>Stationery ID</key>
+		<string>0CFCC7EB-3664-4DD4-9EE7-6E1D012247DC</string>
+	</dict>
+	<dict>
+		<key>Folder Name</key>
+		<string>Vacation.mailstationery</string>
+		<key>Stationery ID</key>
+		<string>F8F1A946-A793-4C07-9F56-368C132D83EC</string>
+	</dict>
+	<dict>
+		<key>Folder Name</key>
+		<string>Postcard.mailstationery</string>
+		<key>Stationery ID</key>
+		<string>E2EB26B7-603D-4542-80AD-B28A426F60E1</string>
+	</dict>
+</array>
+</plist>

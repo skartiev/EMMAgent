@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Background Images</key>
+	<array>
+		<string>bg_pattern.gif</string>
+		<string>letter_bg.gif</string>
+		<string>side_right.gif</string>
+		<string>side_left.gif</string>
+		<string>bottom.jpg</string>
+	</array>
+	<key>Composite Images</key>
+	<array>
+		<dict>
+			<key>Base Image</key>
+			<string>banner.jpg</string>
+			<key>Composite Name</key>
+			<string>Photos</string>
+			<key>Masks</key>
+			<array>
+				<dict>
+					<key>Drop Zone Angle</key>
+					<real>6</real>
+					<key>Drop Zone Offset</key>
+					<array>
+						<integer>18</integer>
+						<integer>24</integer>
+					</array>
+					<key>Drop Zone Size</key>
+					<array>
+						<integer>183</integer>
+						<integer>146</integer>
+					</array>
+					<key>File Name</key>
+					<string>Mask1.png</string>
+					<key>Placeholder Image</key>
+					<string>placeholder1.jpg</string>
+				</dict>
+				<dict>
+					<key>Drop Zone Angle</key>
+					<integer>358</integer>
+					<key>Drop Zone Offset</key>
+					<array>
+						<integer>198</integer>
+						<integer>20</integer>
+					</array>
+					<key>Drop Zone Size</key>
+					<array>
+						<integer>214</integer>
+						<integer>164</integer>
+					</array>
+					<key>File Name</key>
+					<string>Mask2.png</string>
+					<key>Placeholder Image</key>
+					<string>placeholder2.jpg</string>
+				</dict>
+				<dict>
+					<key>Drop Zone Angle</key>
+					<real>351</real>
+					<key>Drop Zone Offset</key>
+					<array>
+						<integer>407</integer>
+						<integer>13</integer>
+					</array>
+					<key>Drop Zone Size</key>
+					<array>
+						<integer>189</integer>
+						<integer>154</integer>
+					</array>
+					<key>File Name</key>
+					<string>Mask3.png</string>
+					<key>Placeholder Image</key>
+					<string>placeholder3.jpg</string>
+				</dict>
+			</array>
+			<key>Overlay Image</key>
+			<string>Frames.png</string>
+		</dict>
+	</array>
+	<key>Folder Name</key>
+	<string>Vacation.mailstationery</string>
+	<key>HTML File</key>
+	<string>content.html</string>
+	<key>Stationery ID</key>
+	<string>F8F1A946-A793-4C07-9F56-368C132D83EC</string>
+	<key>Thumbnail Image</key>
+	<string>thumbnail.png</string>
+</dict>
+</plist>

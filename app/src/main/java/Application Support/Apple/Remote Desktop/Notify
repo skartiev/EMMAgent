@@ -1,0 +1,47 @@
+#!/bin/sh
+#
+##
+## Copyright © 2005-2014 Apple Inc. All Rights Reserved.
+##
+## IMPORTANT NOTE: This file is licensed only for use on Apple-branded
+## computers and is subject to the terms and conditions of the Apple Software
+## License Agreement accompanying the package this file is a part of.
+## You may not port this file to another platform without Apple's written consent.
+#
+# Sample notification handler shell script for Remote Desktop.
+#
+# This script expects to receive 2 arguments.
+#  - The class name of the executed task
+#  - The final execution state
+#
+# Possible final execution states are:
+#  - succeeded
+#  - failed
+#  - incomplete
+#  - stopped
+#  - untargeted
+
+PATH=/bin:/usr/bin:/sbin:/usr/sbin
+MAIL=mail
+MSG=""
+# enter the target recipient here <user@domain.com>
+TARGET_RECIPIENT=""
+
+case $2 in
+	succeeded) MSG="${1} executed and completed successfully";;
+	incomplete) MSG="${1} failed on some computers";;
+	failed) MSG="${1} failed on all computers";;
+	stopped) MSG="${1} was stopped by administrator";;
+	untargeted) MSG="${1} failed because no computers were selected";;
+esac
+
+# send an email if a target address is defined
+if ! [ "${TARGET_RECIPIENT}" = "" ] ; then
+	SUBJECT="Remote Desktop: ${MSG}"
+	${MAIL} -s "${SUBJECT}" ${TARGET_RECIPIENT} < /dev/null
+	exit 0
+else
+	MSG="notification script target recipient not configured"
+	logger -p user.notice -t "Remote Desktop" "${MSG}"
+	exit 1
+fi

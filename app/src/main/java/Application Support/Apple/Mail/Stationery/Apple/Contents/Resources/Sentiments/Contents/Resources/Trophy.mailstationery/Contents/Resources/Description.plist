@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Background Images</key>
+	<array>
+		<string>bg_pattern.jpg</string>
+		<string>bg_letter.jpg</string>
+	</array>
+	<key>Folder Name</key>
+	<string>Trophy.mailstationery</string>
+	<key>HTML File</key>
+	<string>content.html</string>
+	<key>Images</key>
+	<array>
+		<string>top.jpg</string>
+		<string>bottom.jpg</string>
+	</array>
+	<key>Stationery ID</key>
+	<string>3F01D270-C3CF-4F02-A815-9B274CED6810</string>
+	<key>Thumbnail Image</key>
+	<string>thumbnail.png</string>
+</dict>
+</plist>

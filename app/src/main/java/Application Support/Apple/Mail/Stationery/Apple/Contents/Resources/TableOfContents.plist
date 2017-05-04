@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Folder Name</key>
+		<string>Birthday</string>
+	</dict>
+	<dict>
+		<key>Folder Name</key>
+		<string>Announcements</string>
+	</dict>
+	<dict>
+		<key>Folder Name</key>
+		<string>Photos</string>
+	</dict>
+	<dict>
+		<key>Contains Original Stationery</key>
+		<string>yes</string>
+		<key>Folder Name</key>
+		<string>Stationery</string>
+	</dict>
+	<dict>
+		<key>Folder Name</key>
+		<string>Sentiments</string>
+	</dict>
+</array>
+</plist>

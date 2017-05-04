@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="error_config">Please set the %1$s constant and recompile the app.</string>
+    <string name="already_registered">Устройство уже зарегистрировано на сервере.</string>
+    <string name="gcm_registered">From GCM: устройство успешно зарегистрировано!</string>
+    <string name="gcm_unregistered">From GCM: устройство успешно снято с регистрации!</string>
+    <string name="gcm_message">From GCM: Сообщение!</string>
+    <string name="gcm_error">From GCM: ошибка (%1$s).</string>
+    <string name="gcm_recoverable_error">From GCM: recoverable error (%1$s).</string>
+    <string name="gcm_deleted">From GCM: server deleted %1$d pending messages!</string>
+    <string name="server_registering">Попытка (attempt %1$d/%2$d) регистрации девайса на демо сервере.</string>
+    <string name="server_registered">Демо-сервер: устройство успешно добавлено!</string>
+    <string name="server_unregistered">Демо-сервер: устройство успешно удалено!</string>
+    <string name="server_register_error">Не могу зарегистрировть девайс после %1$d попыток.</string>
+    <string name="server_unregister_error">Не могу отсоединить девайс с демо сервера (%1$s).</string>
+    <string name="options_register">Регистрация</string>
+    <string name="options_unregister">Отменить регистрацию</string>
+    <string name="string_content">Image</string>
+    <string name="options_clear">Очистить</string>
+    <string name="options_exit">Выход</string>
+    <string name="app_name">WSO2 Agent</string>
+    <string name="empty_app_title"></string>
+    <string name="action_settings">Настройки</string>
+    <string name="hello_world">Hello MDM</string>
+    <string name="title_activity_display_device_info">DisplayDeviceInfo</string>
+    <string name="url">http://192.168.6.6:8080/mdm/register</string>
+    <string name="title_activity_register_successful">RegisterSuccessful</string>
+    <string name="title_activity_entry">Entry</string>
+    <string name="title_head_authentication_error">Ошибка авторизации</string>
+    <string name="title_head_registration_error">Ошибка регистрации</string>
+    <string name="title_head_connection_error">Нет соединения</string>
+    <string name="title_head_notification_error">Ошибка нотификации</string>
+    <string name="device_admin_enabled">Административные права активированы</string>
+    <string name="device_admin_disabled">Административные права деактивированы</string>
+    <string name="device_not_compatible_error">Вы не можете быть зарегистрированы так как версия операционной системы меньше 4.0.3</string>
+    <string name="device_not_compatible_error_os">Вы не можете быть зарегистрированы так как ваша ОС зарутована</string>
+    <string name="device_not_compatible_error_root">Вы не можете быть зарегистрированы так как версия операционной системы меньше 4.0.3</string>
+    <string name="title_activity_authentication_error">AuthenticationError</string>
+    <string name="title_activity_notification">NotificationActivity</string>
+    <string name="title_activity_notify">NotifyActivity</string>
+    <string name="title_activity_agent_settings">AgentSettingsActivity</string>
+    <string name="title_activity_available_operations">AvailableOperationsActivity</string>
+    <string name="menu_item_operations">Операции</string>
+    <string name="menu_item_pin">Изменить PIN</string>
+    <string name="menu_item_ip">Изменение адреса сервера</string>
+     <string name="menu_item_log">Debug Log</string>
+    <string name="title_activity_alert">Сообщение сервера</string>
+    <string name="device_admin_enable_alert">Эта функция включит режим администратора</string>
+    <string name="device_enroll_type_byod">Пользовательское</string>
+    <string name="device_enroll_type_cope">Корпоративное</string>
+    <string name="device_enroll_type_byod_header">  BYOD (Устройство принадлежит пользователю)</string>
+    <string name="device_enroll_type_cope_header">  COPE (Устройство принадлежит компании)</string>    
+    <string name="title_init_msg_error">Ошибка инициализации, повторите еще раз.</string>
+   	<string name="title_head_init_error">Ошибка инициализации</string>
+
+    <!-- TEXT FIELD HINTS -->
+    <string name="hint_new_pin">New PIN Code</string>
+
+    <!-- TOAST MESSAGES -->
+    <string name="toast_message_pin_change_success">PIN успешно изменен</string>
+    <string name="toast_message_pin_change_failed">Старый PIN некорректен, введите заново </string>
+    <string name="toast_message_enter_server_address">Введите адрес сервера, например : www.abc.com</string>
+    <string name="toast_error_username">Введите имя пользователя</string>
+    <string name="toast_error_password">Введите пароль</string>
+
+    <!-- INTENT EXTRAS -->
+    <string name="intent_extra_from_activity">from_activity_name</string>
+    <string name="intent_extra_regid">regid</string>
+    <string name="intent_extra_main_activity">main_activity_name</string>
+    <string name="intent_extra_message">message</string>
+    <string name="intent_extra_fresh_reg_flag">freshRegFlag</string>
+    <string name="intent_extra_username">username</string>
+    <string name="intent_extra_notification">notification</string>
+
+    <!-- SHARED PREF KEYS -->
+    <string name="shared_pref_package">com.mdm</string>
+    <string name="shared_pref_policy">policy</string>
+    <string name="shared_pref_isagreed">isAgreed</string>
+    <string name="shared_pref_registered">registered</string>
+    <string name="shared_pref_ip">ip</string>
+    <string name="shared_pref_eula">eula</string>
+    <string name="shared_pref_regId">regId</string>
+    <string name="shared_pref_username">username</string>
+    <string name="shared_pref_pin">pin</string>
+    <string name="shared_pref_reg_success">1</string>
+    <string name="shared_pref_reg_fail">0</string>
+    <string name="shared_pref_reg_type">deviceType</string>
+    <string name="shared_pref_sender_id">senderID</string>
+    <string name="shared_pref_message_mode">mode</string>
+    <string name="shared_pref_interval">interval</string>
+    
+    <string name="shared_pref_device_active">0</string>
+    <string name="shared_pref_client_id">ClientID</string>
+    <string name="shared_pref_client_secret">ClientSecret</string>
+    
+    <!-- PARA KEYS -->
+
+    <!-- ERROR MESSAGES -->
+    <string name="error_connect_to_server">Нет соединения с сервером. Проверьте интернет соединение.</string>
+    <string name="error_heading_connection">Ошибка соединения</string>
+    <string name="error_registration_failed">Ошибка регистрации</string>
+    <string name="error_unregistration_failed">Ошибка отмены регистрации</string>
+    <string name="error_authorization_failed">Доступ запрещен</string>
+    <string name="error_enrollment_failed">Ошибка регистрации устройства</string>
+    <string name="error_enrollment_failed_detail">Ошибка регистрации устройства. Свяжитесь с администратором</string>
+    <string name="error_auth_failed_detail">Ошибка аутентификации из-за сетевой ошибки, проверьте ваше соединение.</string>
+    <string name="error_authentication_failed">Неверные пользовательские данные.</string>
+    <string name="error_network_unavailable">Сетевое соединение недоступно. Проверьте настройки вашего соединения с сетью.</string>
+    <string name="error_for_all_unknown_registration_failures">Не удается выполнить регистрацию. Пожалуйста, свяжитесь с администратором.</string>
+    <string name="error_for_all_unknown_authentication_failures">Не удается выполнить авторизацию. Пожалуйста, свяжитесь с администратором.</string>
+    <string name="error_for_all_unknown_unregister_failures">Не удается выполнить отмену регистрации устройства. Пожалуйста, свяжитесь с администратором.</string>
+    <string name="error_for_all_unknown_notification_failures">Невозможно доставить уведомления. Пожалуйста, свяжитесь с администратором.</string>
+    <string name="error_internal_server">Сервер недоступен. Пожалуйста, свяжитесь с администратором.</string>
+    <string name="error_invalid_server_address">Неверный адрес сервера. Попробуйте снова.</string>
+
+    <!-- DIALOG TITLES AND MESSAGES -->
+    <string name="dialog_authenticate">Авторизация</string>
+    <string name="dialog_please_wait">Пожалуйста,подождите</string>
+    <string name="dialog_checking_reg">Проверка регистрационных данных</string>
+    <string name="dialog_sender_id">Получение настроек сервера</string>
+    <string name="dialog_license_agreement">Получение политик безопастности</string>
+    <string name="dialog_enrolling">Регистрация устройства</string>
+    <string name="dialog_pin_confirmation">Вы подтверждаете установку </string>
+    <string name="dialog_pin_confirmation_end"> как ваш  PIN код?</string>
+    <string name="dialog_init_confirmation">Вы установили адрес сервера</string>
+    <string name="dialog_init_middle">Ваше устройство: </string>
+    <string name="dialog_init_end"> , продолжить ?</string>
+    <string name="dialog_init_end_general"> вы уверены ?</string>
+    <string name="dialog_unregister">Вы пытаетесь отменить регистрацию на сервере ЕММ. Вы уверены?</string>
+
+    <!-- REGISTRATION -->
+    <string name="register_button_start">Продолжить регистрацию</string>
+    <string name="register_button_text">Регистрация</string>
+    <string name="register_text_view_text_unregister">Регистрация успешно отменена, нажмите для повторной регистрации на сервере управления приложениями</string>
+
+    <!-- AGENT SETTINGS ACTIVITY -->
+    <string name="menu_item_phone_info">Информация о телефоне</string>
+    <string name="menu_item_change_pin">Изменить PIN код</string>
+    <string name="menu_item_change_ip">Изменить IP адрес</string>
+
+    <!-- ALREADY REGISTERED ACTIVITY -->
+    <string name="dialog_message_unregistering">Незарегистрированное устройство</string>
+    <string name="dialog_message_please_wait">Пожалуйста подождите</string>
+
+    <!-- DEVICE INFO ACTIVITY -->
+    <string name="info_label_imei">IMEI:</string>
+    <string name="info_label_device">Device:</string>
+    <string name="info_label_model">Model:</string>
+    <string name="info_label_no_sim">No Sim</string>
+    <string name="info_label_operator">Operator:</string>
+    <string name="info_label_imsi">IMSI:</string>
+    <string name="info_label_os">OS:</string>
+    <string name="info_label_rooted">Rooted:</string>
+    <string name="info_label_rooted_answer_yes">Да</string>
+    <string name="info_label_rooted_answer_no">Нет</string>
+
+    <!-- BUTTON TITLES -->
+    <string name="button_ok">OK</string>
+    <string name="agree">Принимаю</string>
+    <string name="cancel">Отмена</string>
+
+    <!-- APPLICATION MANAGER -->
+    <string name="application_mgr_download_location">/Download/</string>
+    <string name="application_mgr_download_file_name">update.apk</string>
+    <string name="application_mgr_mime">application/vnd.android.package-archive</string>
+    <string name="application_package_prefix">package:</string>
+    <string name="application_package_launcher_action">com.android.launcher.action.INSTALL_SHORTCUT</string>
+
+    <!-- SERVER UTILITIES -->
+    <string name="server_util_req_type_post">POST</string>
+    <string name="server_util_req_type_get">GET</string>
+    <string name="title_activity_log">LogActivity</string>
+    
+    <!--  Headings -->
+     <string name="registration_heading">Введите ваш адрес сервера для регистрации, например : www.abc.com</string>
+    <string name="text_unregister">Устройство успешно зарегистрировано, нажмите на кнопку чтобы отменить регистрацию  MDM</string>
+    <string name="button_unregister">Отмена регистрации</string>
+    <string name="policy_agreement">Соглашение</string>
+    <string name="enter_pin">Введите PIN</string>
+    <string name="enter_pin_text">Введите PIN код для защиты вашего устройства от критических операций</string>
+    <string name="set_pin">Установить PIN код</string>
+    <string name="domain">Домен</string>
+    <string name="username">Имя пользователя</string>
+    <string name="password">Пароль</string>
+
+
+
+
+
+
+
+</resources>

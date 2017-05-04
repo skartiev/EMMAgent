@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Folder Name</key>
+		<string>Thank You.mailstationery</string>
+		<key>Stationery ID</key>
+		<string>2ECD79A2-C419-44A1-B7AA-3A0BE5D263D7</string>
+	</dict>
+	<dict>
+		<key>Folder Name</key>
+		<string>Heart.mailstationery</string>
+		<key>Stationery ID</key>
+		<string>32A48CAB-E72E-42C1-9BF5-921C1D0DE488</string>
+	</dict>
+	<dict>
+		<key>Folder Name</key>
+		<string>Get Well.mailstationery</string>
+		<key>Stationery ID</key>
+		<string>3C7B5A39-1A31-474E-9974-AC85131AE37B</string>
+	</dict>
+	<dict>
+		<key>Folder Name</key>
+		<string>Flower.mailstationery</string>
+		<key>Stationery ID</key>
+		<string>AB0A37A6-8D94-4F58-A506-254476DC3930</string>
+	</dict>
+	<dict>
+		<key>Folder Name</key>
+		<string>Trophy.mailstationery</string>
+		<key>Stationery ID</key>
+		<string>3F01D270-C3CF-4F02-A815-9B274CED6810</string>
+	</dict>
+</array>
+</plist>

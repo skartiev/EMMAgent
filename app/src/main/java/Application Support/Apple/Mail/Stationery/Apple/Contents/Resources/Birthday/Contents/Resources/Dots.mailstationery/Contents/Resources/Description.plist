@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Background Images</key>
+	<array>
+		<string>bg_pattern.jpg</string>
+		<string>letter_bg.jpg</string>
+		<string>lbg.jpg</string>
+		<string>rbg.jpg</string>
+	</array>
+	<key>Composite Images</key>
+	<array>
+		<dict>
+			<key>Base Image</key>
+			<string>banner.jpg</string>
+			<key>Composite Name</key>
+			<string>Photos</string>
+			<key>Masks</key>
+			<array>
+				<dict>
+					<key>Drop Zone Angle</key>
+					<real>4.5</real>
+					<key>Drop Zone Offset</key>
+					<array>
+						<integer>41</integer>
+						<integer>40</integer>
+					</array>
+					<key>Drop Zone Size</key>
+					<array>
+						<integer>387</integer>
+						<integer>305</integer>
+					</array>
+					<key>File Name</key>
+					<string>Mask1.png</string>
+					<key>Placeholder Image</key>
+					<string>placeholder.jpg</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
+	<key>Folder Name</key>
+	<string>Dots.mailstationery</string>
+	<key>HTML File</key>
+	<string>content.html</string>
+	<key>Images</key>
+	<array>
+		<string>tbg.jpg</string>
+		<string>top.jpg</string>
+		<string>bottom.jpg</string>
+	</array>
+	<key>Stationery ID</key>
+	<string>3CF502C3-F26C-4DFE-92B5-527787A9BD3A</string>
+	<key>Thumbnail Image</key>
+	<string>thumbnail.png</string>
+</dict>
+</plist>

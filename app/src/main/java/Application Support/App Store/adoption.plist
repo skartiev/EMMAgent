@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>eligibilityRead</key>
+	<dict>
+		<key>errorMessage</key>
+		<string>ex.name (com.apple.jingle.foundation.exceptions.MZCodedException) -- ex.message (MZException code = MZFinance.AppAdoptionNotEligible, userInfo = null)</string>
+		<key>errorMessageKey</key>
+		<string>MZFinance.AppAdoptionNotEligible</string>
+		<key>errorNumber</key>
+		<integer>3552</integer>
+		<key>status</key>
+		<integer>-1</integer>
+		<key>userPresentableErrorMessage</key>
+		<string>Future updates of these apps can be found through Software Update.</string>
+	</dict>
+	<key>eligiblityReadDate</key>
+	<date>2015-04-04T20:48:50Z</date>
+</dict>
+</plist>
